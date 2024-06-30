@@ -54,6 +54,183 @@
     <items xsi:type="form:FormGroup">
       <name>СтраницаМоиЗадачиСотрудникам</name>
       <id>143</id>
+      <items xsi:type="form:FormField">
+        <name>ОтборСтатус</name>
+        <id>156</id>
+        <title>
+          <key>ru</key>
+          <value>Установить отбор по статусу</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ОтборСтатус</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОтборСтатусПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ОтборСтатусРасширеннаяПодсказка</name>
+          <id>158</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОтборСтатусКонтекстноеМеню</name>
+          <id>157</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ПериодСрокВыполнения</name>
+        <id>150</id>
+        <title>
+          <key>ru</key>
+          <value>Уст. отбор срок выполнения</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПериодСрокВыполнения</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПериодСрокВыполненияПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ПериодСрокВыполненияРасширеннаяПодсказка</name>
+          <id>152</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПериодСрокВыполненияКонтекстноеМеню</name>
+          <id>151</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ПериодНазначенияЗадачи</name>
+        <id>153</id>
+        <title>
+          <key>ru</key>
+          <value>Уст. отбор дата назначения</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПериодНазначенияЗадачи</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПериодНазначенияЗадачиПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ПериодНазначенияЗадачиРасширеннаяПодсказка</name>
+          <id>155</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПериодНазначенияЗадачиКонтекстноеМеню</name>
+          <id>154</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <items xsi:type="form:Table">
         <name>СписокМоиЗадачиСотрудникам</name>
         <id>95</id>
@@ -1369,65 +1546,6 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаИсполнено</name>
           <id>45</id>
-          <items xsi:type="form:FormField">
-            <name>ПериодСрокВыполненияИсп</name>
-            <id>88</id>
-            <title>
-              <key>ru</key>
-              <value>Уст. отбор срок выполнения</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ПериодСрокВыполненияИсп</segments>
-            </dataPath>
-            <handlers>
-              <event>OnChange</event>
-              <name>ПериодСрокВыполненияИспПриИзменении</name>
-            </handlers>
-            <extendedTooltip>
-              <name>ПериодСрокВыполненияИспРасширеннаяПодсказка</name>
-              <id>90</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ПериодСрокВыполненияИспКонтекстноеМеню</name>
-              <id>89</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <extendedEditMultipleValues>true</extendedEditMultipleValues>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
           <items xsi:type="form:Table">
             <name>СписокИсполнено</name>
             <id>69</id>
@@ -2401,23 +2519,6 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>ПериодСрокВыполненияИсп</name>
-    <title>
-      <key>ru</key>
-      <value>Период срок выполнения исп</value>
-    </title>
-    <id>5</id>
-    <valueType>
-      <types>StandardPeriod</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>СписокМоиЗадачиСотрудникам</name>
     <title>
       <key>ru</key>
@@ -2561,6 +2662,57 @@
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ПериодСрокВыполнения</name>
+    <title>
+      <key>ru</key>
+      <value>Период срок выполнения</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>StandardPeriod</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПериодНазначенияЗадачи</name>
+    <title>
+      <key>ru</key>
+      <value>Период назначения задачи</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>StandardPeriod</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтборСтатус</name>
+    <title>
+      <key>ru</key>
+      <value>Отбор статус</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>EnumRef.СтатусыЗадачи</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <commandInterface>
     <navigationPanel/>

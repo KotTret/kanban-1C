@@ -10,5 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Задачи</picture>
   </picture>
+  <content>Report.АнализПродуктивностиРаботыСотрудников</content>
   <subsystems>Задачи</subsystems>
 </mdclass:Subsystem>

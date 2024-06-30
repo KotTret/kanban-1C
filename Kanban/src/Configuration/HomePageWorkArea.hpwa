@@ -167,7 +167,6 @@
       <visibility>
         <common>true</common>
         <for>
-          <value>true</value>
           <role>Role.АдминистраторСистемы</role>
         </for>
         <for>
@@ -235,6 +234,10 @@
         </for>
         <for>
           <role>Role.Сотрудник</role>
+        </for>
+        <for>
+          <value>true</value>
+          <role>Role.Руководитель</role>
         </for>
       </visibility>
     </items>

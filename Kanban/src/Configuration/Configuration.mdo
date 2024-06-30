@@ -521,6 +521,7 @@
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <reports>Report.АнализПродуктивностиРаботыСотрудников</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
