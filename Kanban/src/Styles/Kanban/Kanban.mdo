@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa5efd41-745c-434d-b18a-05c684155452">
-  <name>Kanban</name>
-  <synonym>
-    <key>ru</key>
-    <value>Kanban</value>
-  </synonym>
-</mdclass:Style>
